@@ -1,78 +1,68 @@
-# 📚 OpenAI Agent SDK and Advanced Python Learning Repository
+# Learn Modern Python
 
-## 🧠 About
+A personal learning repository where I store everything I have learned about **modern Python** and its ecosystem — from core Python concepts to frameworks like **FastAPI** and tools like **OpenAI Agent SDK**.
 
-This repository is dedicated to documenting my learning journey with the **OpenAI Agent SDK** and **Python programming**.  
-Here, I share code, projects, and insights as I explore these technologies.
+## 📌 About
+This repo serves as:
+- My Python learning journal
+- A collection of practice scripts, code snippets, and projects
+- A reference for future projects
 
-🎯 **Goal**: To create a centralized place for all my learning materials, experiments, and projects related to the OpenAI Agent SDK and Python.
+## 🛠 Topics Covered
+- **Core Python**  
+  Variables, Data Types, Loops, Functions, OOP, Modules, Error Handling, File I/O, etc.
+- **Advanced Python**  
+  Iterators, Generators, Decorators, Context Managers, Type Hints, Dataclasses
+- **FastAPI**  
+  REST APIs, Request & Response Models, Path & Query Params, Validation, Middleware
+- **Pydantic**  
+  Data validation, Field constraints, Nested models, Validators
+- **OpenAI Agent SDK**  
+  Agents, Guardrails, Tools, Multi-Agent Orchestration, Streaming Responses
+- **Other Tools**  
+  Async Python, Environment Variables, Project Structure
 
----
-
-## 🤖 What is the OpenAI Agent SDK?
-
-The **OpenAI Agent SDK** is a lightweight yet powerful framework developed by OpenAI for building **multi-agent workflows**.
-
-### 🔑 Key Features
-
-- **Agents**: LLMs configured with instructions, tools, and guardrails  
-- **Handoffs**: Mechanisms for agents to transfer control to other agents  
-- **Guardrails**: Safety checks for input and output validation  
-- **Tracing**: Built-in tracking of agent runs for debugging and optimization  
-
-🔗 [OpenAI Agent SDK Documentation](https://github.com/openai/agent-sdk)
-
----
-
-## 🧪 Projects
-
-This repository contains various projects that demonstrate different aspects of the OpenAI Agent SDK and Python programming.
-
-### 📂 Example Projects
-
-- **Simple Calculator**  
-  A basic Python program that takes user input and performs arithmetic operations.
-
-- **Agent-Based Chatbot**  
-  A demonstration of using the Agent SDK to create a chatbot that can handle multiple tasks.
-
-> ✨ *More projects will be added as I continue learning and experimenting.*
-
----
 
 ## 🚀 How to Use
-
-1. **Clone the repository**  
+1. Clone this repo:
    ```bash
-   git clone https://github.com/AbdulSamad94/Advanced_OpenAI_AgentSDK.git
+   git clone https://github.com/<your-username>/learn_modern_python.git
+   cd learn_modern_python
+``
 
-2. **Navigate to a project directory** you're interested in.
+2. Create a virtual environment:
 
-3. **Follow the instructions** in the project's README (if available) or check code comments.
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
+   ```
+3. Install dependencies:
 
-> ⚠️ Some projects may have their own dependencies or requirements listed inside their respective folders.
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run any example:
+
+   ```bash
+   python python_basics/example1.py
+   ```
+
+## 📖 Learning Goals
+
+* Build strong fundamentals in modern Python
+* Practice production-grade API development with FastAPI
+* Learn and experiment with OpenAI Agent SDK
+* Prepare for building real-world AI-powered applications
+
+## 📚 References
+
+* [Python Docs](https://docs.python.org/3/)
+* [FastAPI Docs](https://fastapi.tiangolo.com/)
+* [Pydantic Docs](https://docs.pydantic.dev/)
+* [OpenAI Agent SDK Docs](https://openai.github.io/openai-agents-python/)
 
 ---
 
-## 🤝 How to Contribute
+💡 **Note:** This is a personal learning repo — it's not a tutorial but a growing collection of my experiments and notes.
 
-Contributions are welcome!
-If you have suggestions, bug reports, or want to contribute:
-
-* Open an issue
-* Submit a pull request
-
-Let’s learn together!
-
----
-
-## 📬 Contact
-
-* **Email**: [abdulsamadsiddiqui2000@gmail.com](mailto:abdulsamadsiddiqui2000@gmail.com)
-* **GitHub**: [@AbdulSamad94](https://github.com/AbdulSamad94)
-
----
-
-## 📄 License
-
-This repository is licensed under the [MIT License](LICENSE).
